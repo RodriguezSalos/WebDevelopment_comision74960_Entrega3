@@ -1,0 +1,89 @@
+.menu-principal {}
+
+.navbar-nav .navbar .navbar-expand-lg .navbar-light{
+    background-color:aliceblue
+}
+.container{
+    background-color: #ededed ;
+}
+.menu__items{
+    background-color: #ededed;
+    margin: 20px;
+    padding: 3%;
+}
+.footer{
+    /*background-color:#000000 ;*/
+}
+
+.navbar-collapse {
+    align-items: center;
+}
+
+.img-backgroud {
+    display:flex;
+    justify-items:baseline;
+    width: 90%;
+    height:400px;
+    margin: auto ;
+    border: auto;
+    padding: auto;
+}
+
+.social-icons {
+    width: 100%;
+    margin: 13px;
+    justify-content: center;
+}
+
+h2 {
+    color: rgb(35, 101, 194);
+    text-decoration: underline;
+}
+
+button {
+    color: rgb(131, 138, 175);
+}
+
+label {
+    color: rgb(34, 51, 113);
+}
+
+.carousel-inner{
+/*     width: 25%;
+    height: 800;
+    margin: 800; */
+    background-position: center;
+/*     position:absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    height: 20rem;
+    margin: 0 auto;  */   
+}
+.carousel-item {
+    background-position: center;
+}
+/* .carousel-item{
+    background-position: center;
+} */
+ .carousel-item > div > img{
+    height:470px;
+    width:1150px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+ }
+
+/* Adaptable (Responsivo)*/
+/* Media Query*/
+/*
+    *screen         <--a que medio se debe aplicar
+    *max-width      <--aplicando a dispositvos con maximo de ancho en pixeles
+    *display: none  <-- se oculta
+*/
+@media screen and (max-width: 700px) {
+    .navbar-brand{
+        display: none;
+    }
+}
