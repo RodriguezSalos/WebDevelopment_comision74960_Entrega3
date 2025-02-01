@@ -1,30 +1,64 @@
-.menu-principal {}
+.imagenes_menu {
+    width: 250px;
+    height: 225px;
+    display: flex;
+    margin-top: auto;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    border-radius: 20%;
+}
+.button{
+    display: inline-block;
+    background-color: #db3545;
+    color: #fff;
+    padding: .70rem 1rem;
+    border-radius: .5rem;
+    transition: .3s;
+}
 
-.navbar-nav .navbar .navbar-expand-lg .navbar-light{
-    background-color:aliceblue
+.menu_img {
+    width: 250px;
+    height: 200px;
+    align-self: center;
+    margin-top: 10%;
+    border-radius: 20%;
 }
-.container{
-    background-color: #ededed ;
+
+.navbar-nav .navbar .navbar-expand-lg .navbar-light {
+    background-color: aliceblue
 }
-.menu__items{
+
+.container {
+    background-color: #ededed;
+}
+
+.menu__items {
     background-color: #ededed;
     margin: 20px;
     padding: 3%;
 }
-.footer{
-    /*background-color:#000000 ;*/
+.menu_pedidos{
+    background-color: #ededed;
+    margin: 20px;
+    padding: 3%;
 }
-
+.menu_img_pedido {
+    width: 250px;
+    height: 200px;
+    align-self: center;
+    border-radius: 20%;
+}
 .navbar-collapse {
     align-items: center;
 }
 
 .img-backgroud {
-    display:flex;
-    justify-items:baseline;
+    display: flex;
+    justify-items: baseline;
     width: 90%;
-    height:400px;
-    margin: auto ;
+    height: 400px;
+    margin: auto;
     border: auto;
     padding: auto;
 }
@@ -48,32 +82,21 @@ label {
     color: rgb(34, 51, 113);
 }
 
-.carousel-inner{
-/*     width: 25%;
-    height: 800;
-    margin: 800; */
+.carousel-inner {
     background-position: center;
-/*     position:absolute;
-    top: 10%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    height: 20rem;
-    margin: 0 auto;  */   
 }
+
 .carousel-item {
     background-position: center;
 }
-/* .carousel-item{
-    background-position: center;
-} */
- .carousel-item > div > img{
-    height:470px;
-    width:1150px;
-    display:flex;
+
+.carousel-item>div>img {
+    height: 470px;
+    width: 1150px;
+    display: flex;
     flex-direction: column;
-    justify-content:center;
- }
+    justify-content: center;
+}
 
 /* Adaptable (Responsivo)*/
 /* Media Query*/
@@ -84,6 +107,12 @@ label {
 */
 @media screen and (max-width: 700px) {
     .navbar-brand{
-        display: none;
+        display:flex;
+        justify-content: center;
+    }
+    .social-icons{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-end;
     }
 }
