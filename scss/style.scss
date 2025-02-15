@@ -1,0 +1,116 @@
+@import "devices";
+@import "utilities";
+
+.button{
+    display: inline-block;
+    background-color: #d82f40;
+    color: #fff;
+    padding: .70rem 1rem;
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+.carousel-item{
+    div{
+    
+        img{
+            height: 470px;
+            width: 1150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            background-position: center;
+        }
+    }
+}
+    .imagenes_menu {
+        width: 250px;
+        height: 225px;
+        display: flex;
+        margin-top: auto;
+        margin-left: 5%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+        border-radius: 20%;
+    }
+    /*1_menu*/
+    .button{
+        display: inline-block;
+        background-color: $color-background-1;
+        color: $color-boton-letra;
+        padding: .70rem 1rem;
+        border-radius: .5rem;
+        transition: .3s;
+    }
+    .menu_img {
+        width: 250px;
+        height: 200px;
+        align-self: center;
+        margin-top: 10%;
+        border-radius: 20%;
+    }
+    .navbar-nav .navbar .navbar-expand-lg .navbar-light {
+        background-color: $color-background-2;
+    }
+    .container {
+        background-color: $color-background-base;
+        .responsivegrid{
+            margin-bottom: 10%;
+        }
+    }
+    .menu__items .menu_pedidos {
+        background-color: $color-background-base;
+        margin: 20px;
+        padding: 3%;
+    }
+    .menu_img_pedido {
+        width: 250px;
+        height: 200px;
+        align-self: center;
+        border-radius: 20%;
+    }
+    .navbar-collapse {
+        align-items: center;
+    }
+    .img-backgroud {
+        display: flex;
+        justify-items: baseline;
+        width: 90%;
+        height: 400px;
+        margin: auto;
+        border: auto;
+        padding: auto;
+    }
+    .social-icons {
+        position:sticky;
+        width: 100%;
+        margin: 13px;
+        justify-content: center;
+    }
+    
+    h2 {
+        color: rgb(35, 101, 194);
+        text-decoration: underline;
+    }
+    button {
+        color: rgb(131, 138, 175);
+    }
+
+    label {
+    color: rgb(34, 51, 113);
+    }
+
+    @mixin marginTopGeneral($margin-top){
+        margin-top: $margin-top;
+
+    }
+    .marginTopGeneral{
+        margin-top: 5%;
+
+    }
+    footer{
+        @extend .marginTopGeneral;
+    }
+    h3{
+        @extend .marginTopGeneral;
+    }
