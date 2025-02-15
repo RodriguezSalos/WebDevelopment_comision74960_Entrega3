@@ -1,103 +1,3 @@
-.imagenes_menu {
-    width: 250px;
-    height: 225px;
-    display: flex;
-    margin-top: auto;
-    margin-left: 5%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-    border-radius: 20%;
-}
-.button{
-    display: inline-block;
-    background-color: #db3545;
-    color: #fff;
-    padding: .70rem 1rem;
-    border-radius: .5rem;
-    transition: .3s;
-}
-
-.menu_img {
-    width: 250px;
-    height: 200px;
-    align-self: center;
-    margin-top: 10%;
-    border-radius: 20%;
-}
-
-.navbar-nav .navbar .navbar-expand-lg .navbar-light {
-    background-color: aliceblue
-}
-
-.container {
-    background-color: #ededed;
-}
-
-.menu__items {
-    background-color: #ededed;
-    margin: 20px;
-    padding: 3%;
-}
-.menu_pedidos{
-    background-color: #ededed;
-    margin: 20px;
-    padding: 3%;
-}
-.menu_img_pedido {
-    width: 250px;
-    height: 200px;
-    align-self: center;
-    border-radius: 20%;
-}
-.navbar-collapse {
-    align-items: center;
-}
-
-.img-backgroud {
-    display: flex;
-    justify-items: baseline;
-    width: 90%;
-    height: 400px;
-    margin: auto;
-    border: auto;
-    padding: auto;
-}
-
-.social-icons {
-    width: 100%;
-    margin: 13px;
-    justify-content: center;
-}
-
-h2 {
-    color: rgb(35, 101, 194);
-    text-decoration: underline;
-}
-
-button {
-    color: rgb(131, 138, 175);
-}
-
-label {
-    color: rgb(34, 51, 113);
-}
-
-.carousel-inner {
-    background-position: center;
-}
-
-.carousel-item {
-    background-position: center;
-}
-
-.carousel-item>div>img {
-    height: 470px;
-    width: 1150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 /* Adaptable (Responsivo)*/
 /* Media Query*/
 /*
@@ -105,14 +5,134 @@ label {
     *max-width      <--aplicando a dispositvos con maximo de ancho en pixeles
     *display: none  <-- se oculta
 */
-@media screen and (max-width: 700px) {
-    .navbar-brand{
-        display:flex;
-        justify-content: center;
-    }
-    .social-icons{
-        display:flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
+@media screen and (min-width: 320px) and (max-width: 932px) {
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+  }
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
 }
+@media screen and (min-width: 1024px) {
+  .navbar-brand {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.button {
+  display: inline-block;
+  background-color: #d82f40;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.carousel-item div img {
+  height: 470px;
+  width: 1150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: center;
+}
+
+.imagenes_menu {
+  width: 250px;
+  height: 225px;
+  display: flex;
+  margin-top: auto;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  border-radius: 20%;
+}
+
+/*1_menu*/
+.button {
+  display: inline-block;
+  background-color: rgb(217, 48, 65);
+  color: rgb(255, 255, 255);
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.menu_img {
+  width: 250px;
+  height: 200px;
+  align-self: center;
+  margin-top: 10%;
+  border-radius: 20%;
+}
+
+.navbar-nav .navbar .navbar-expand-lg .navbar-light {
+  background-color: rgb(14, 127, 226);
+}
+
+.container {
+  background-color: rgb(237, 237, 237);
+}
+.container .responsivegrid {
+  margin-bottom: 10%;
+}
+
+.menu__items .menu_pedidos {
+  background-color: rgb(237, 237, 237);
+  margin: 20px;
+  padding: 3%;
+}
+
+.menu_img_pedido {
+  width: 250px;
+  height: 200px;
+  align-self: center;
+  border-radius: 20%;
+}
+
+.navbar-collapse {
+  align-items: center;
+}
+
+.img-backgroud {
+  display: flex;
+  justify-items: baseline;
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  border: auto;
+  padding: auto;
+}
+
+.social-icons {
+  position: sticky;
+  width: 100%;
+  margin: 13px;
+  justify-content: center;
+}
+
+h2 {
+  color: rgb(35, 101, 194);
+  text-decoration: underline;
+}
+
+button {
+  color: rgb(131, 138, 175);
+}
+
+label {
+  color: rgb(34, 51, 113);
+}
+
+.marginTopGeneral, h3, footer {
+  margin-top: 5%;
+}
+
+/*# sourceMappingURL=main.css.map */
