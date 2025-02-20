@@ -58,10 +58,17 @@
             margin-bottom: 10%;
         }
     }
-    .menu__items .menu_pedidos {
+    .historia{
         background-color: $color-background-base;
         margin: 20px;
         padding: 3%;
+        align-items: center;
+    }
+    .menu__items .menu_pedidos .historia{
+        background-color: $color-background-base;
+        margin: 20px;
+        padding: 3%;
+        align-items: center;
     }
     .menu_img_pedido {
         width: 250px;

@@ -84,10 +84,18 @@
   margin-bottom: 10%;
 }
 
-.menu__items .menu_pedidos {
+.historia {
   background-color: rgb(237, 237, 237);
   margin: 20px;
   padding: 3%;
+  align-items: center;
+}
+
+.menu__items .menu_pedidos .historia {
+  background-color: rgb(237, 237, 237);
+  margin: 20px;
+  padding: 3%;
+  align-items: center;
 }
 
 .menu_img_pedido {
