@@ -81,8 +81,10 @@
 .container {
   background-color: rgb(237, 237, 237);
 }
-.container .responsivegrid {
+
+.responsivegrid {
   margin-bottom: 10%;
+  text-align: center;
 }
 
 .historia {
@@ -147,7 +149,7 @@ label {
 /* Estilos para pantallas grandes */
 .menu_img {
   width: 200px; /* Ajusta el ancho de la imagen */
-  height: auto; /* Mantiene la proporción de la imagen */
+  height: 200px; /* Mantiene la proporción de la imagen */
 }
 
 /* Estilos para pantallas medianas */
