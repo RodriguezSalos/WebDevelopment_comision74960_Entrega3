@@ -54,9 +54,10 @@
     }
     .container {
         background-color: $color-background-base;
-        .responsivegrid{
-            margin-bottom: 10%;
-        }
+    }
+    .responsivegrid{
+        margin-bottom: 10%;
+        text-align: center;
     }
     .historia{
         background-color: $color-background-base;
@@ -121,3 +122,24 @@
     h3{
         @extend .marginTopGeneral;
     }
+    /* Estilos para pantallas grandes */
+.menu_img {
+    width: 200px; /* Ajusta el ancho de la imagen */
+    height: 200px; /* Mantiene la proporción de la imagen */
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media (max-width: 768px) {
+    .menu_img {
+      width: 150px; /* Ajusta el ancho de la imagen para pantallas medianas */
+      height: auto;
+    }
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media (max-width: 480px) {
+    .menu_img {
+      width: 100px; /* Ajusta el ancho de la imagen para pantallas pequeñas */
+      height: auto;
+    }
+  }
